@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Bartoletti.Jacopo._5G.LocalImg.MainPage">
+
+    <ContentPage Title="SIMPSON" IconImageSource="Simpson32.png">
+        <StackLayout>
+            <Label Text="Welcome to Simpson page" 
+           HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand" />
+            <Image Source="Simpson32.png" VerticalOptions="CenterAndExpand" HorizontalOptions="FillAndExpand"></Image>
+        </StackLayout>
+    </ContentPage>
+
+    <ContentPage Title="MINION" IconImageSource="Minion32.png"> 
+        <StackLayout>
+            <Label Text="Welcome to Minion page" 
+           HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand" />
+            <Image Source="Minion32.png" VerticalOptions="CenterAndExpand" HorizontalOptions="FillAndExpand"></Image>
+        </StackLayout>
+    </ContentPage>
+
+</TabbedPage>
